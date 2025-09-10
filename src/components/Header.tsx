@@ -1,13 +1,13 @@
-import { Calendar, Scale, HelpCircle } from "lucide-react";
+import { Calendar, BookOpen, HelpCircle } from "lucide-react";
 
 const Header = () => {
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <Scale className="h-8 w-8 text-gray-700" />
+          <BookOpen className="h-8 w-8 text-gray-700" />
           <h1 className="text-xl font-semibold text-gray-900">
-            LawBandit Syllabus Converter
+            Syllabus Converter
           </h1>
         </div>
         <div className="flex items-center space-x-3">
